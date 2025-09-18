@@ -1,19 +1,23 @@
 # Запуск скрипта
+
     1. Переходим в нужный файл
     2. ctrl+shift+b -> enter (то что выпадет - "▶ start current .py script")
 
 # Как пользоваться
 
 ## keep_awake.py
+
 - Бессрочно (пока скрипт запущен): python keep_awake.py
 - На N минут: python keep_awake.py --minutes 120
 
 ## keep_awake_win.py
+
 - Бессрочно: python keep_awake_win.py
 - На 2 часа: python keep_awake_win.py --minutes 120
 - Только не гасить дисплей (не блокируя общий сон системы): python keep_awake_win.py --display-only
 
 # Tasks.json
+
 ```
 {
   "version": "2.0.0",
@@ -45,6 +49,7 @@
 ```
 
 # Start script
+
 ```
 Чтобы запустить скрипт на Python на ПК, тебе нужно
 
@@ -62,11 +67,9 @@
 2. (Опционально) Установить нужные библиотеки
 
 - Если твой скрипт использует сторонние библиотеки (например, `numpy`, `requests`, `pandas` и т.д.), их нужно установить через pip
-  sh
   pip install имя_библиотеки
   
 - Если есть файл `requirements.txt`, то
-  sh
   pip install -r requirements.txt
   
 
@@ -76,19 +79,16 @@
 
 - Открой командную строку (cmd, PowerShell или терминал).
 - Перейди в папку со скриптом
-  sh
   cd путь_к_папке
   
 - Запусти скрипт
-  sh
   python имя_файла.py
   
   или, если у тебя несколько версий Python
-  sh
   python3 имя_файла.py
   
 
-
+---
 
 4. (Опционально) Установить редактор кода
 
@@ -97,10 +97,6 @@
   - [PyCharm](httpswww.jetbrains.compycharm)
   - [Sublime Text](httpswww.sublimetext.com)
 
----
-
 ```
 
-# TODO:
-    
-    
+# TODO
