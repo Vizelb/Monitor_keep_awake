@@ -44,6 +44,63 @@
 }
 ```
 
+# Start script
+```
+Чтобы запустить скрипт на Python на ПК, тебе нужно
+
+---
+
+1. Установить сам Python
+
+- Скачай Python с официального сайта  
+  [httpswww.python.orgdownloads](httpswww.python.orgdownloads)
+- Выбери версию (обычно рекомендуется последняя стабильная, например, Python 3.12.x).
+- При установке обязательно поставь галочку “Add Python to PATH” (это упростит запуск из командной строки).
+
+---
+
+2. (Опционально) Установить нужные библиотеки
+
+- Если твой скрипт использует сторонние библиотеки (например, `numpy`, `requests`, `pandas` и т.д.), их нужно установить через pip
+  sh
+  pip install имя_библиотеки
+  
+- Если есть файл `requirements.txt`, то
+  sh
+  pip install -r requirements.txt
+  
+
+---
+
+3. Запустить скрипт
+
+- Открой командную строку (cmd, PowerShell или терминал).
+- Перейди в папку со скриптом
+  sh
+  cd путь_к_папке
+  
+- Запусти скрипт
+  sh
+  python имя_файла.py
+  
+  или, если у тебя несколько версий Python
+  sh
+  python3 имя_файла.py
+  
+
+
+
+4. (Опционально) Установить редактор кода
+
+- Для удобства можешь установить редактор, например
+  - [VS Code](httpscode.visualstudio.com)
+  - [PyCharm](httpswww.jetbrains.compycharm)
+  - [Sublime Text](httpswww.sublimetext.com)
+
+---
+
+```
+
 # TODO:
     
     
