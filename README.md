@@ -13,6 +13,37 @@
 - На 2 часа: python keep_awake_win.py --minutes 120
 - Только не гасить дисплей (не блокируя общий сон системы): python keep_awake_win.py --display-only
 
+# Tasks.json
+```
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "▶ start current .py script",
+      "type": "shell",
+      // Используем переменную, которая автоматически подставляет путь 
+      // к выбранному Python-интерпретатору
+      // "command": "${command:python.interpreterPath}", 
+      "command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+      "args": [
+        "${file}"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
+```
+
 # TODO:
     
     
