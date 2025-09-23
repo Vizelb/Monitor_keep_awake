@@ -16,6 +16,10 @@
 - На 2 часа: python keep_awake_win.py --minutes 120
 - Только не гасить дисплей (не блокируя общий сон системы): python keep_awake_win.py --display-only
 
+## dist/keep_awake_win.exe
+
+- тоже самое, что и "keep_awake_win.py" - только в расширении .exe
+
 # Tasks.json
 
 ```
